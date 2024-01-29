@@ -1,0 +1,173 @@
+
+1.Are the HTML tags and elements the same thing?
+
+ans.-No,tags and elements are different things in html. html tag is only opening and closing tags without content in between.ex. <p>, </p>
+     however the html element is opening and closing tags with content. ex. <p>paragraph</p>
+
+2.What are tags and attributes in HTML?
+
+ans.- tags contians html elements and attribute is additional information in any tag holds in opening bracket and contain some value. ex. <img src="">
+      here in img tag SRC is attribute for image.
+
+3.What are void elements in HTML? With Example.
+
+ans.- void elements have only opening tag it does not have closing tag ex. <img src="">, <hr>,<br>
+
+<body>
+<img src="img1.png">
+</body>
+
+4.What are HTML Entities? With Example.
+
+ans.-entities are use to display resevr characters in html, for ex to display < simbol write &it;
+
+<body>
+<p> this is simbol &it;</p>
+<body>   
+
+5.What are different types of lists in HTML? With Example
+
+ans-there are two types of lists in html 
+
+    <ol> for list items in order ex. lists in 1.2.3.
+    <ul> for list items in unorder ex. lists in non numeric list
+
+    <body>
+    <ol>
+       <li>surat</li>
+       <li>baroda</li>
+    </ol>
+    <ul>
+        <li>surat</li>
+       <li>baroda</li>
+    </ul>
+
+6.What is the ‘class’ attribute in HTML? With Example.
+
+ans.-class attribute is use for target multiple elements to style in style sheet in html. class attribute have specific value.
+
+    ex. <body>
+             <h1 class="red"> h1</h1>
+        <body>
+ 
+7.What is the difference between the ‘id’ attribute and the ‘class’ attribute of HTML
+elements? With Example
+
+ans.- Id is used to identify single element in html. id is unique, while class can be asign to multiple elements in html, class are not unique.
+
+      <body>
+            <p class="1"></p>
+            <h1 id="2">hello</h1>
+      </body>   
+
+8.What are the various formatting tags in HTML?
+
+ans.- some formatting tags in html are
+      <b>    <em>
+      <u>    <sup>
+      <i>    <sub>
+
+9.How is Cell Padding different from Cell Spacing? With Example.
+
+ans.- cell padding is define space between cell border and text of the table cell. and cell spacing defines space between two cells of the table in html.
+     ex. 
+      <table cell-padding="10" cell-spacing="5">
+        <tr>
+           <th>name</th>
+           <th>gender</th>
+        </tr>
+        <tr>
+        <td>Mahesh</td>
+        <td>male</td>
+        </tr>
+      </table>
+10. How can we club two or more rows or columns into a single row or column in an HTML
+table? With Example.
+
+ans.- row-spam and col-spam are used to merge two or more colomn and rows in table.
+
+ex.   <table>
+        <tr>
+           <th col-spam="2">data</th>
+        </tr>
+        <tr>
+           <th>name</th>
+           <th>age</th>
+        </tr>
+         <tr>
+        <td>mahesh</td>
+        <td row-spam="2">30</td>
+        </tr>
+        <tr>
+        <td>rahul</td>
+        </tr>
+      </table>
+
+11.What is the difference between a block-level element and an inline element?
+
+ans. block element starts from new line and cover whole space from left to right in html. on the otherhand inline element only cover specific space by tag.
+
+12.How to create a Hyperlink in HTML? With Example.
+
+ans. <a> tag is used to create a hyperlink in html with the use of HREF attribute for URL.
+
+   ex. <body>
+         <div>
+             <a href="https//:www.google.com">
+         </div>
+       </body> 
+
+13.What is the use of an iframe tag? With Example.
+
+ans. <iframe> tag is used to display web page within a web page, this tag add another document in html. we can display map on the web page with iframe tag.
+
+    ex.   <body>
+         <div>
+             <iframe src="form.html">
+         </div>
+       </body> 
+
+14.What is the use of a span tag? Explain with example?
+
+ans.- span tag is used for add style specific part of the text in html.
+
+    ex.   <body>
+         <div>
+             <p> this paragraph is <span style="background-color:yellow;">important</span><p>  
+         </div>
+       </body>
+
+15.How to insert a picture into a background image of a web page? With Example.
+
+ans.- with the use of <img> tag we can add background image into web page. src attribute use the location of the image in the folder.     
+         <body>
+         <div>
+             <img src="/image.png" >
+         </div>
+       </body>
+
+16.How are active links different from normal links?
+
+ans.- normal link is non-visited link in web page which has blue color, once link is clicked it will change the color in red. in the visited links remain in red color.
+
+17.What are the different tags to separate sections of text?
+
+ans.- <br>, <p>, <div>, <article>, <aside> these tag are use for separate section of text in html.
+
+18.What is SVG?
+
+ans.- svg is scalable vector graphics in html, the <svg> tag is used for define any graphics in the web page.
+
+19.What is difference between HTML and XHTML?
+
+ans.- html is hypertext markup language and xhtml is extensible hypertext markup language.
+      xhtml is XML base version of html.
+     <!DOCTYPE>, <html>,<head>,<title> and <body> are mandatory in html 
+     in xhtml all document should well formed and correctly
+     while in html browser ignore any errors in html page and still display the output.
+
+20.What are logical and physical tags in HTML?
+
+ans.-physical tags are used to provide the visual appearance to the text while the logical tags tell browser what kind of text written in the web page.
+    ex. <b>, <u>, <i> are physical tags
+        <pre>, <q> are logical tags.       
